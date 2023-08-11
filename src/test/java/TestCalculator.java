@@ -8,7 +8,7 @@ public class TestCalculator {
     @ParameterizedTest
     @CsvSource(value = {"10, 2"})
     void testSum(int a, int b) {
-        int expectedResult = 13;
+        int expectedResult = 12;
         int actualResult = Calculator.sum(a, b);
         Assertions.assertEquals(expectedResult, actualResult);
     }

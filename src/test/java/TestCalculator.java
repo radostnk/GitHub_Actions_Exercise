@@ -6,7 +6,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 public class TestCalculator {
 
     @ParameterizedTest
-    @CsvSource(value = {"10, 2"})
+    @CsvSource(value = {"9, 3"})
     void testSum(int a, int b) {
         int expectedResult = 12;
         int actualResult = Calculator.sum(a, b);
